@@ -49,6 +49,9 @@ public enum CoinID {
     NOVACOIN_MAIN(NovacoinMain.get()),
     SHADOWCASH_MAIN(ShadowCashMain.get()),
     PARKBYTE_MAIN(ParkbyteMain.get()),
+    DOGECOINDARK_MAIN(DogecoindarkMain.get()),
+    CLAMS_MAIN(ClamsMain.get()),
+    GCR_MAIN(GcrMain.get()),
     ;
 
     private static List<CoinType> types;
