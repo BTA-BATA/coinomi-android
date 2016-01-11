@@ -1,7 +1,6 @@
 package com.coinomi.core.coins;
 
 import com.coinomi.core.coins.families.BitFamily;
-import com.coinomi.core.coins.families.PeerFamily;
 
 /**
  * @author John L. Jegutanis
@@ -16,7 +15,7 @@ public class BatacoinMain extends CoinType {
         spendableCoinbaseDepth = 100;
         dumpedPrivateKeyHeader = 153;
 
-	family = BitFamily.get();();
+	family = BitFamily.get();
         name = "Batacoin";
         symbol = "BTA";
         uriScheme = "batacoin";
